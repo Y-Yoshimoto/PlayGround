@@ -5,10 +5,9 @@ int fib(n){
 }
 
 int main(int argc,char * argv[]){
-    int max = 9;
+    int max = 10;
     for(int i = 0; i < max; i++){
-        printf("%d,",fib(i));
+        printf("%d %d\n",i,fib(i));
     }
-    printf("%d\n",fib(max));
     return 0;
 }
