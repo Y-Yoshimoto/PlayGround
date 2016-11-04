@@ -1,4 +1,5 @@
-# config: UTF-8
+# config:utf-8
+# ファイル名を連番に変更
 import sys
 import os
 import re
